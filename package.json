@@ -8,7 +8,7 @@
     "start-prod": "NODE_ENV=production npm start"
   },
   "authors": [
-    "Péter Hauszknecht <peter.hauszknecht@jaystack.com> (https://github.com/jayhasyee)"
+    "Kadlecsik Tamás <tamas.kadlecsik@gmail.com> (https://github.com/Shadowbeetle)"
   ],
   "keywords": [
     "dispatch",
