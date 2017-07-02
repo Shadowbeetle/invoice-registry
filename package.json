@@ -4,11 +4,7 @@
   "description": "Todo electron app to representing repatch",
   "main": "lib/main",
   "scripts": {
-    "tsc": "tsc -p src --outDir lib",
-    "tsc:w": "tsc -p src --outDir lib -w",
-    "build": "rm -rf lib && npm run tsc",
-    "build:w": "npm run tsc:w",
-    "start": "electron lib/main",
+    "start": "electron main/index",
     "start-prod": "NODE_ENV=production npm start"
   },
   "authors": [
@@ -33,18 +29,6 @@
     "url": "https://github.com/jaystack/repatch-example-electron-app/issues"
   },
   "dependencies": {
-    "electron": "^1.7.4",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1",
-    "react-redux": "^5.0.5",
-    "repatch": "0.0.11"
-  },
-  "devDependencies": {
-    "@types/electron": "^1.6.10",
-    "@types/node": "^8.0.6",
-    "@types/react": "^15.0.33",
-    "@types/react-dom": "^15.5.1",
-    "@types/react-redux": "^4.4.45",
-    "typescript": "^2.4.1"
+    "electron": "^1.7.4"
   }
 }
