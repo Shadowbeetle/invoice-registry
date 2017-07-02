@@ -1,4 +1,12 @@
-.item > input[type=text] {
-  border: none;
-  outline: none;
+.item-image {
+  height: 100px;
+  margin: 5px;
+}
+
+.monospaced {
+  font-family: monospace;
+}
+
+.inlined {
+  display: inline;
 }

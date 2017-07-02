@@ -29,6 +29,10 @@
     "url": "https://github.com/jaystack/repatch-example-electron-app/issues"
   },
   "dependencies": {
-    "electron": "^1.7.4"
+    "electron": "^1.7.4",
+    "expand-home-dir": "0.0.3",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "tilde-path": "^2.0.0"
   }
 }

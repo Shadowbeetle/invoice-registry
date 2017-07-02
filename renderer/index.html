@@ -6,12 +6,23 @@
   <title>Hello World!</title>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-
-<body>
-  <div id="app">Hello, World!</div>
+<div>
+  <button id="select-image">Select images</button>
+  <div id="picture-list"></div>
+</div>
+<div>
+  <button id="select-destination">Select destination</button>
+  <section class="monospaced inlined" id="current-destination"></section>
+</div>
+<div>
+  <input id="name-template">
+</div>
+<div>
+  <button id="copy-rename">Copy & rename</button>
+</div>
+<div class="monospaced" id="results"></div>
 </body>
 <script>
   require('./index')
 </script>
-
 </html>
