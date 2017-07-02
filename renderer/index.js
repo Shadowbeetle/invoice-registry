@@ -63,7 +63,7 @@ function copyAndRename () {
 
   const result = targetFileNames.join(', ')
   resultsContainer.textContent = result
-  clipboard.writeText(result, 'selection')
+  clipboard.writeText(result)
   alert('Result file names are copied to clipboard!')
 }
 
